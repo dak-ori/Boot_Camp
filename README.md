@@ -6,3 +6,5 @@
     - VScode 설치방법에 대해 배움
 2.  Basic_Python
     - Python 기초에 대해 배움 (+ pyfiglet, termcolor)
+3.  Basic_FastAPI
+    - FastAPI 기초에 대해 배움
