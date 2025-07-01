@@ -5,4 +5,4 @@
 1.  Install_VScode
     - VScode 설치방법에 대해 배움
 2.  Basic_Python
-    - Python 기초에 대해 배움
+    - Python 기초에 대해 배움 (+ pyfiglet, termcolor)
