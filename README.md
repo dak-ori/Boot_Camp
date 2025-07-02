@@ -7,4 +7,6 @@
 2.  Basic_Python
     - Python 기초에 대해 배움 (+ pyfiglet, termcolor)
 3.  Basic_FastAPI
-    - FastAPI 기초에 대해 배움
+    - FastAPI와 Postgresql 기초에 대해 배움
+4.  YOLO
+    - YOLO 모델을 사용하여 사진 인식에 대해 배움
