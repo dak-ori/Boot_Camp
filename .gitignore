@@ -136,7 +136,6 @@ celerybeat.pid
 
 # Environments
 static/
-yolo11n-cls.pt
 .env
 .envrc
 .venv
@@ -211,3 +210,4 @@ __marimo__/
 *.jpg
 *.jpeg
 *.png
+*.pt
