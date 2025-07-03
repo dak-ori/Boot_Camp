@@ -2,7 +2,7 @@ from ultralytics import solutions
 import cv2
 
 # 비디오 주소
-capture = cv2.VideoCapture()
+capture = cv2.VideoCapture(0)
 
 # 모델 선언
 blurrer = solutions.ObjectBlurrer(
