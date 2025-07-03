@@ -11,7 +11,7 @@ model = YOLO('models/yolo11n.pt')
 while capture.isOpened():
     success, frame = capture.read()
     
-    # 오류 처리
+    # 예외 처리
     if not success:
         print('파일을 다시 확인하세요')
         break
