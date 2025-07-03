@@ -34,7 +34,7 @@ while capture.isOpened():
         break
     
     re_frame = cv2.resize(frame, (720, 600))
-    cv2.imshow("GET_X_Y", re_frame)
+    cv2.imshow("GET_REGION", re_frame)
     
     # 종료 버튼
     if cv2.waitKey(10) & 0xFF == ord('q'):
