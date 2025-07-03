@@ -10,7 +10,7 @@ model = YOLO('models/yolo11n-pose.pt')
 while capture.isOpened():
     success, frame = capture.read()
     
-    # 오류 처리
+    # 예외 처리
     if not success:
         print('확인 부탁드립니다')
         break

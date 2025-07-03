@@ -11,6 +11,7 @@ model = YOLO('models/yolo11n.pt')
 while capture.isOpened():
     success, frame = capture.read()
     
+    # 예외 처리
     if not success:
         print('파일을 다시 확인하세요')
         break
@@ -23,7 +24,7 @@ while capture.isOpened():
     cv2.namedWindow('YOLO', cv2.WINDOW_NORMAL)
     cv2.imshow('YOLO', annotated_frame)
 
-    #종료 버튼
+    # 종료 버튼
     if cv2.waitKey(1) & 0xFF == ord('q'):
         print('종료하겠습니다')
         break

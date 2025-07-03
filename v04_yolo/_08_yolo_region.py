@@ -21,7 +21,7 @@ region = solutions.RegionCounter(
 while capture.isOpened():
     success, frame = capture.read()
     
-    # 오류 처리
+    # 예외 처리
     if not success:
         print('비디오 확인')
         break
