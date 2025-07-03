@@ -6,7 +6,7 @@ capture = cv2.VideoCapture('http://210.99.70.120:1935/live/cctv028.stream/playli
 
 # 좌표 설정 
 region_points = {
-    "region" : [(73, 600), (60, 400), (300, 150), (400, 150)],
+    "region" : [(381, 149),(104, 500),(456, 534),(563, 156)],
     # "region_2nd" : [(860, 0), (1920, 0), (860, 600), (0, 600)],
 }
 
@@ -26,7 +26,8 @@ while capture.isOpened():
         print('비디오 확인')
         break
     
-    results = region(frame)
+    re_frame = cv2.resize(frame, (720, 600))
+    results = region(re_frame)
     
     # 종료 버튼
     if cv2.waitKey(1) & 0xFF == ord('q'):
