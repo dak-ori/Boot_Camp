@@ -1,12 +1,5 @@
 # Boot_Camp
 
-0.  Install_Anaconda
-    - 아나콘다 사용법에 대해 배움
-1.  Install_VScode
-    - VScode 설치방법에 대해 배움
-2.  Basic_Python
-    - Python 기초에 대해 배움 (+ pyfiglet, termcolor)
-3.  Basic_FastAPI
-    - FastAPI와 Postgresql 기초에 대해 배움
-4.  YOLO
-    - YOLO 모델을 사용하여 사진 인식에 대해 배움
+각종 모듈 사용과 그에 대한 예제가 적혀있음
+6/30 ~ 7/7 : 부트캠프 참여
+7/8 ~ : 인턴십으로 인해 부트캠프 탈주
